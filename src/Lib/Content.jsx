@@ -2,7 +2,8 @@
 import  travel from "./propic/travel.png"
 import  boat from "./propic/boat.jpg"
 import  udmey from "./propic/udmey.jpg"
-
+import portfolio from "./propic/portfolio.png"
+import kfc from "./propic/kfc.png"
 export default {
     managerialSkills: ["Leadership", "Strategising", "Planning", "Team Motivation",  "Research", "Finance Management"],
     technicalSkills: [{name:"React",logo:`<i className="fa-brands fa-reacteurope"></i>`}, {name:"JavaScript",logo:`<i className="fa-brands fa-js-square"></i>`}, {name:"Material UI",logo:`<i className="fa-brands fa-uikit"></i>`}, {name:"Bootstrap",icon:`<i className="fa-brands fa-bootstrap"></i>`}, {name:"CSS",icon:`<i className="fa-brands fa-css3-alt"></i>`}, {name:"Express",icon:`<i className="fa-solid fa-gauge-simple"></i>`}, {name:"Git & GitHub",icon:`<i className="fa-brands fa-git-alt"></i>`}, {name:"MongoDB",icon:`<i className="fa-solid fa-database"></i>`}, {name:"MYSQL",icon:`<i className="fa-solid fa-server"></i>`}, {name:"TypeScript",icon:`<i className="fa-brands fa-jsfiddle"></i>`}, {name:"Jest",icon:`<i className="fa-solid fa-flask-vial"></i>`}, {name:"Node.js",icon:`<i className="fa-brands fa-node-js"></i>`},{name:"Data Structures",icon:`<i className="fa-solid fa-cubes-stacked"></i>`}],
@@ -19,7 +20,7 @@ export default {
             name: "A.N College, Patna",
             type: "University",
             course: "B.Sc in Physics",
-            duration: "2018-2022"
+            duration: "2018-2021"
             
         },
         highSchool: {
@@ -37,6 +38,16 @@ export default {
     },
     work: [
         {
+            company: "KFC Clone",
+            link: "https://github.com/hlv-kakashi/KFC-clone-full-stack",
+            role: "ReactJS, Redux , Styled-components, NodeJs , Express , MongoDB ",
+            description:["Created a full-stack website known as KFC. From this website you can order different fast food like burger chicken-rolls, etc. A team project completed within 5 days. "],
+            duration: "June 2022- Jun 2022", 
+            feedback:"",
+            url : "https://clone-kfc.netlify.app/",
+            propic:kfc
+        },
+        {
             company: "Travelocity Clone",
             link: "https://github.com/AmanJaiswal0612/React_Travelocity_Clone",
             role: "ReactJS, Redux ,MaterialUI, LocalStorage",
@@ -45,6 +56,16 @@ export default {
             feedback: "",
             url:"https://celadon-dodol-b03f1e.netlify.app/",
             propic:travel
+        },
+        {
+            company: "React Portfolio",
+            link: "https://github.com/AmanJaiswal0612/react-portfolio-aman",
+            role: "ReactJS , MaterialUI",
+            description:["A full detailed portfolio of my self where you can see all the details of my skills,projects,contact at one place."],
+            duration: "May 2022- June 2022",
+            feedback:"",
+            url : "https://amanjaiswal-portfolio.netlify.app/",
+            propic:portfolio
         },
         {
             company: "Udemy Clone",
@@ -69,7 +90,7 @@ export default {
     
     ],
     accomplishments: [{
-        award: "Deveotee Service award",
+        award: "Deveotee Service Samman",
         description: "Voluntarily participated and serves more than 1000 devotees in Isckon Ratha Yatra 2019,Kolkata",
         by: "Isckon,kolkata",
         when: "JULY 2019",

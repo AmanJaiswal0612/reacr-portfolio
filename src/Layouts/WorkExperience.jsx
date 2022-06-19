@@ -1,6 +1,5 @@
 import Header from "../Components/Header/Header";
 import { Container, Grid, Typography } from "@mui/material";
-import Footer from "../Components/Footer/Footer.jsx";
 import WorkExperienceCards from '../Components/WorkExperienceCards/WorkExperienceCards.jsx';
 import { makeStyles } from "@mui/styles";
 import Content from '../Lib/Content';
