@@ -85,7 +85,7 @@ export default {
             description: ["Clone of a very popular website udemy.com from where you can learn new skills by enrolling into your desired online course . Our Cloned website of Udemy contains almost every functionality that the original one have. This is a team project which we completed with in 5days "],
             duration: "Mar 2022 - Mar 2022",
             feedback: "",
-            url:"https://verdant-kitten-680f9d.netlify.app/",
+            url:"https://cloneof-udemy.netlify.app/",
             propic:udmey
         },
         {
