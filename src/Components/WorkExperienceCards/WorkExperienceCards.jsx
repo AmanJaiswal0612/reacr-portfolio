@@ -42,7 +42,7 @@ const WorkExperienceCards = (props) => {
                         <Button size="small" color="secondary" variant="outlined" href={props.work.link} target="_blank" rel="noreferrer" className={classes.websiteBtn} download>
                             Source Code
                         </Button>
-                        <Button size="small" color="secondary" variant="outlined" href={props.work.url}  >Deployed Link</Button>
+                        <Button size="small" color="secondary" variant="outlined" href={props.work.url} target="_blank"  >Deployed Link</Button>
                         {props.work.feedback &&
                             <Button size="small" color="primary" variant="outlined" href={props.work.feedback} target="_blank" rel="noreferrer" download className={classes.feedback}>
                                 Employer Feedback

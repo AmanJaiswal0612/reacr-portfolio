@@ -4,9 +4,10 @@ import  boat from "./propic/boat.jpg"
 import  udmey from "./propic/udmey.jpg"
 import portfolio from "./propic/portfolio.png"
 import kfc from "./propic/kfc.png"
+import sugar_cosmetics from "./propic/sugar_cosmetics.png"
 export default {
     managerialSkills: ["Leadership", "Strategising", "Planning", "Team Motivation",  "Research", "Finance Management"],
-    technicalSkills: [{name:"React",logo:`<i className="fa-brands fa-reacteurope"></i>`}, {name:"JavaScript",logo:`<i className="fa-brands fa-js-square"></i>`}, {name:"Material UI",logo:`<i className="fa-brands fa-uikit"></i>`}, {name:"Bootstrap",icon:`<i className="fa-brands fa-bootstrap"></i>`}, {name:"CSS",icon:`<i className="fa-brands fa-css3-alt"></i>`}, {name:"Express",icon:`<i className="fa-solid fa-gauge-simple"></i>`}, {name:"Git & GitHub",icon:`<i className="fa-brands fa-git-alt"></i>`}, {name:"MongoDB",icon:`<i className="fa-solid fa-database"></i>`}, {name:"MYSQL",icon:`<i className="fa-solid fa-server"></i>`}, {name:"TypeScript",icon:`<i className="fa-brands fa-jsfiddle"></i>`}, {name:"Jest",icon:`<i className="fa-solid fa-flask-vial"></i>`}, {name:"Node.js",icon:`<i className="fa-brands fa-node-js"></i>`},{name:"Data Structures",icon:`<i className="fa-solid fa-cubes-stacked"></i>`}],
+    technicalSkills: [{name:"React",logo:`<i className="fa-brands fa-reacteurope"></i>`}, {name:"JavaScript",logo:`<i className="fa-brands fa-js-square"></i>`}, {name:"Material UI",logo:`<i className="fa-brands fa-uikit"></i>`}, {name:"Bootstrap",icon:`<i className="fa-brands fa-bootstrap"></i>`}, {name:"CSS",icon:`<i className="fa-brands fa-css3-alt"></i>`}, {name:"Express",icon:`<i className="fa-solid fa-gauge-simple"></i>`}, {name:"Git & GitHub",icon:`<i className="fa-brands fa-git-alt"></i>`}, {name:"MongoDB",icon:`<i className="fa-solid fa-database"></i>`}, {name:"Redis",icon:`<i className="fa-solid fa-server"></i>`}, {name:"TypeScript",icon:`<i className="fa-brands fa-jsfiddle"></i>`}, {name:"Jest",icon:`<i className="fa-solid fa-flask-vial"></i>`}, {name:"Node.js",icon:`<i className="fa-brands fa-node-js"></i>`},{name:"Websocket",icon:`<i className="fa-solid fa-cubes-stacked"></i>`},{name:"Authorization(JWT,OAuth)",icon:`<i className="fa-brands fa-reacteurope"></i>`},{name:"Data Structures",icon:`<i className="fa-brands fa-reacteurope"></i>`}],
     marketingSkills: ["VS Code", "Postman", "Git", "JIRA", "CodeSandbox"],
     education: {
         bc:{
@@ -46,6 +47,16 @@ export default {
             feedback:"",
             url : "https://clone-kfc.netlify.app/",
             propic:kfc
+        },
+        {
+            company: "Sugar Cosmetics Clone",
+            link: "https://github.com/DhimanAnkush/tart-clover-1298",
+            role: "ReactJS, Redux , Tailwind CSS, NodeJs , Express , MongoDB ",
+            description:["Created a full-stack website known as Sugar Cosmetics. From this website you can order different make up and skincare products. A team project completed within 5 days. "],
+            duration: "July 2022- July 2022", 
+            feedback:"",
+            url : "https://sugar-cosmetics.vercel.app/",
+            propic:sugar_cosmetics  
         },
         {
             company: "Travelocity Clone",
@@ -92,7 +103,7 @@ export default {
     accomplishments: [{
         award: "Deveotee Service Samman",
         description: "Voluntarily participated and serves more than 1000 devotees in Isckon Ratha Yatra 2019,Kolkata",
-        by: "Isckon,kolkata",
+        by: "Iskcon,kolkata",
         when: "JULY 2019",
     }, {
         award: "Inter School badminton champion",
