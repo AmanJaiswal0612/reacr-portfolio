@@ -10,7 +10,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Content from '../Lib/Content';
-import AmanJaiswal from '../Assets/AmanStand.jpeg';
+import AmanJaiswal from '../Assets/AmanLap.jpeg';
 
 // Styles for Education page
 const styles = makeStyles(({ breakpoints, palette }) => {
@@ -20,7 +20,7 @@ const styles = makeStyles(({ breakpoints, palette }) => {
     },
     root: {
       height: "100%",
-      // minHeight: "100vh",
+    //   minHeight: "100vh",
       padding: 10,
       display: "flex",
       alignItems: "center",
@@ -32,7 +32,7 @@ const styles = makeStyles(({ breakpoints, palette }) => {
     },
     title: {
       fontWeight: "bolder !important",
-      paddingBottom:'50px',
+      paddingBottom:"50px",
       [breakpoints.down("sm")]: {
         fontSize: "1.8rem !important",
       },
@@ -67,12 +67,12 @@ const styles = makeStyles(({ breakpoints, palette }) => {
   };
 });
 
-function Education() {
+function Work() {
   const classes = styles();
   const theme = useTheme();
   const small = useMediaQuery(theme.breakpoints.down("sm"));
   return (
-    <div id="education">
+    <div id="experience">
       {/* Education Page */}
       <Header />
       <Container maxWidth="lg">
@@ -86,7 +86,7 @@ function Education() {
             xs={12}
           >
             <Typography variant="h3" className={classes.title}>
-              Education
+              Work Experience
             </Typography>
           </Grid>
           {/* Grid */}
@@ -108,6 +108,24 @@ function Education() {
             <TimelineItem>
                 <TimelineOppositeContent color="text.primary">
                   <Typography variant="h6" component="span">
+                  Company
+                  </Typography>
+                  <Typography>{`2022 - Current`}</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Typography variant="h6" component="span">
+                    {`Queuebuster POS`}
+                  </Typography>
+                  <Typography>{`FrontEnd Engineer (React-NextJs)`}</Typography>
+                </TimelineContent>
+              </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent color="text.primary">
+                  <Typography variant="h6" component="span">
                     {Content.education.bc.type}
                   </Typography>
                   <Typography>{Content.education.bc.duration}</Typography>
@@ -123,60 +141,7 @@ function Education() {
                   <Typography>{Content.education.bc.course}</Typography>
                 </TimelineContent>
               </TimelineItem>
-              <TimelineItem>
-                <TimelineOppositeContent color="text.primary">
-                  <Typography variant="h6" component="span">
-                    {Content.education.ug.type}
-                  </Typography>
-                  <Typography>{Content.education.ug.duration}</Typography>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineDot color="primary" />
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Typography variant="h6" component="span">
-                    {Content.education.ug.name}
-                  </Typography>
-                  <Typography>{Content.education.ug.course}</Typography>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineOppositeContent color="text.primary">
-                  <Typography variant="h6" component="span">
-                    {Content.education.highSchool.type}
-                  </Typography>
-                  <Typography>{Content.education.highSchool.duration}</Typography>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineDot color="secondary" />
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Typography variant="h6" component="span">
-                    {Content.education.highSchool.name}
-                  </Typography>
-                  <Typography>{Content.education.highSchool.course}</Typography>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineOppositeContent color="text.primary">
-                  <Typography variant="h6" component="span">
-                    {Content.education.juniorSchool.type}
-                  </Typography>
-                  <Typography>{Content.education.juniorSchool.duration}</Typography>
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineDot color="primary" />
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Typography variant="h6" component="span">
-                    {Content.education.juniorSchool.name}
-                  </Typography>
-                  <Typography>{Content.education.juniorSchool.course}</Typography>
-                </TimelineContent>
-              </TimelineItem>
+
             </Timeline>
           </Grid>
          
@@ -187,4 +152,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Work;

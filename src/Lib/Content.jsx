@@ -7,7 +7,7 @@ import kfc from "./propic/kfc.png"
 import sugar_cosmetics from "./propic/sugar_cosmetics.png"
 export default {
     managerialSkills: ["Leadership", "Strategising", "Planning", "Team Motivation",  "Research", "Finance Management"],
-    technicalSkills: [{name:"React",logo:`<i className="fa-brands fa-reacteurope"></i>`}, {name:"JavaScript",logo:`<i className="fa-brands fa-js-square"></i>`}, {name:"Material UI",logo:`<i className="fa-brands fa-uikit"></i>`}, {name:"Bootstrap",icon:`<i className="fa-brands fa-bootstrap"></i>`}, {name:"CSS",icon:`<i className="fa-brands fa-css3-alt"></i>`}, {name:"Express",icon:`<i className="fa-solid fa-gauge-simple"></i>`}, {name:"Git & GitHub",icon:`<i className="fa-brands fa-git-alt"></i>`}, {name:"MongoDB",icon:`<i className="fa-solid fa-database"></i>`}, {name:"Redis",icon:`<i className="fa-solid fa-server"></i>`}, {name:"TypeScript",icon:`<i className="fa-brands fa-jsfiddle"></i>`}, {name:"Jest",icon:`<i className="fa-solid fa-flask-vial"></i>`}, {name:"Node.js",icon:`<i className="fa-brands fa-node-js"></i>`},{name:"Websocket",icon:`<i className="fa-solid fa-cubes-stacked"></i>`},{name:"Authorization(JWT,OAuth)",icon:`<i className="fa-brands fa-reacteurope"></i>`},{name:"Data Structures",icon:`<i className="fa-brands fa-reacteurope"></i>`}],
+    technicalSkills: [{name:"React",logo:`<i className="fa-brands fa-reacteurope"></i>`},{name:"NextJs",logo:`<i className="fa-brands fa-js-square"></i>`}, {name:"JavaScript",logo:`<i className="fa-brands fa-js-square"></i>`}, {name:"Material UI",logo:`<i className="fa-brands fa-uikit"></i>`}, {name:"Bootstrap",icon:`<i className="fa-brands fa-bootstrap"></i>`}, {name:"CSS",icon:`<i className="fa-brands fa-css3-alt"></i>`},{name:"Telwind CSS",icon:`<i className="fa-brands fa-css3-alt"></i>`} ,{name:"Express",icon:`<i className="fa-solid fa-gauge-simple"></i>`}, {name:"Git & GitHub",icon:`<i className="fa-brands fa-git-alt"></i>`}, {name:"MongoDB",icon:`<i className="fa-solid fa-database"></i>`}, {name:"Redis",icon:`<i className="fa-solid fa-server"></i>`}, {name:"TypeScript",icon:`<i className="fa-brands fa-jsfiddle"></i>`}, {name:"Jest",icon:`<i className="fa-solid fa-flask-vial"></i>`}, {name:"Node.js",icon:`<i className="fa-brands fa-node-js"></i>`},{name:"Websocket",icon:`<i className="fa-solid fa-cubes-stacked"></i>`},{name:"Authorization(JWT,OAuth)",icon:`<i className="fa-brands fa-reacteurope"></i>`},{name:"Data Structures",icon:`<i className="fa-brands fa-reacteurope"></i>`}],
     marketingSkills: ["VS Code", "Postman", "Git", "JIRA", "CodeSandbox"],
     education: {
         bc:{
@@ -100,7 +100,20 @@ export default {
         },
     
     ],
-    accomplishments: [{
+    accomplishments: [
+        {
+            award:'Hard Working Employee',
+            description:'Certificate of Apperciation for hardworkand contribution at DPD Technolgies/Queuebuster',
+            by: "DPD Technolgies/Queuebuster",
+            when: "MARCH 2023",
+        },
+        {
+            award:'Runner Up  Construct Week Project',
+            description:'SECOND Price at Masai School  Construct Week Project',
+            by: "Masai School",
+            when: "JUNE 2022",
+        }
+        ,{
         award: "Deveotee Service Samman",
         description: "Voluntarily participated and serves more than 1000 devotees in Isckon Ratha Yatra 2019,Kolkata",
         by: "Iskcon,kolkata",

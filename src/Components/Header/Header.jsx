@@ -98,28 +98,37 @@ function Header(props) {
                                         Education
                                     </NavBarElement>
                                     <NavBarElement
+                                        onClick={() =>{
+                                             SmoothScroll("#experience")
+                                             setNavcolor(3)  
+                                             } }
+                                        pathCheck={navcolor==3}
+                                    >
+                                        Work Experience
+                                    </NavBarElement>
+                                    <NavBarElement
                                         onClick={() => {
                                             SmoothScroll("#project");
-                                            setNavcolor(3)     
+                                            setNavcolor(4)     
                                             }}
-                                        pathCheck={navcolor==3}
+                                        pathCheck={navcolor==4}
                                     >
                                         Projects
                                     </NavBarElement>
                                     <NavBarElement
                                         onClick={() => {
                                                  SmoothScroll("#accom")
-                                                 setNavcolor(4)   
+                                                 setNavcolor(5)   
                                                  }}
-                                        pathCheck={navcolor==4}
+                                        pathCheck={navcolor==5}
                                     >
                                         Accomplishments
                                     </NavBarElement>
                                     <NavBarElement
                                         onClick={() => {SmoothScroll("#contact")
-                                             setNavcolor(5)  
+                                             setNavcolor(6)  
                                           }}
-                                        pathCheck={navcolor==5}
+                                        pathCheck={navcolor==6}
                                     >
                                         Contact
                                     </NavBarElement>

@@ -14,6 +14,7 @@ import WorkExperience from './Layouts/WorkExperience';
 import Accomplishments from './Layouts/Accomplishments';
 import ErrorPage from './Layouts/ErrorPage';
 import ScrollToTop from './Utils/ScrollToTop';
+import Work from './Layouts/Work';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <BrowserRouter>
       <Home />
       <Education />
+      <Work/>
       <WorkExperience />
       <Accomplishments />
       <Contact />

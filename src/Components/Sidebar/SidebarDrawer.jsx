@@ -121,29 +121,38 @@ export function SidebarDrawer(props) {
                 Education
             </SidebarElement>
             <SidebarElement
-                onClick={() =>{ 
-                 SmoothScroll("#project");
-                 setsNavcolor(4)
+                onClick={() => {
+                    SmoothScroll("#experience")
+                setsNavcolor(4)
             }}
                 pathCheck={snavcolor==4}
+            >
+                Work Experience
+            </SidebarElement>
+            <SidebarElement
+                onClick={() =>{ 
+                 SmoothScroll("#project");
+                 setsNavcolor(5)
+            }}
+                pathCheck={snavcolor==5}
             >
                 Projects
             </SidebarElement>
             <SidebarElement
                 onClick={() => {
                    SmoothScroll("#accom");
-                   setsNavcolor(5)
+                   setsNavcolor(6)
             }}
-                pathCheck={snavcolor==5}
+                pathCheck={snavcolor==6}
             >
                 Accomplishments
             </SidebarElement>
             <SidebarElement
                 onClick={() => {
                 SmoothScroll("#contact")
-                setsNavcolor(6)
+                setsNavcolor(7)
             }}
-                pathCheck={snavcolor==6}
+                pathCheck={snavcolor==7}
             >
                 Contact
             </SidebarElement>

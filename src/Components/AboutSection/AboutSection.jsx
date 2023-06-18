@@ -28,18 +28,14 @@ function AboutSection() {
                             About <span className={classes.textColored}>Me</span>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            Originally from Patna in India, Recently I completed my full-stack web development course at <a href="https://www.masaischool.com/" target="_blank" rel="noreferrer" className={classes.hiddenLinks}>Masai School</a>. During this course, I worked on many projects.I also got the opportunity to lead my group several time.I think I am a nice team player.I enjoy working in team and executing the task well.I am passionate about solving real-world problems in the field of web development. 
+                        I am a passionate full-stack web developer with a strong background in front-end development. I completed an intensive bootcamp at Masai School, dedicating 12 hours a day to coding. Afterward, I worked at a leading IT company, where I contributed to the development of a React-based POS dashboard and multiple websites using Next.js.
              
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                             During my school days it was my dream to create my own website. When i was  in the last year of my graduation i decided to make my career as a web developer. In the initial days it was not easy to learn these things but as i spend more and more time in this i started enjoying these things.Now i can proudly say one thing that i am a passionate developer who is always ready to work on any of the project.I am a enthusiastic, hard working and a self-motivated
-person who is always looking forward to learn new
-skills. A complete Team Player who is excited to be at
-the deployment phase of his new career as a full-stack
-Web developer.      
+                        As a product enthusiast, I love creating intuitive and user-centric solutions. I believe in understanding the products we build and their impact on end-users. I approach every project with enthusiasm, aiming for high-quality results. I thrive in collaborative environments, enjoying teamwork to bring ideas to life.
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            In my free time, I love spending time in gym, listen to songs, go for long drives, and play outdoor sports such as cricket/football.
+                        Outside of coding, I enjoy playing cricket and football. I prioritize mental well-being through daily meditation, which keeps me focused and clear-headed. I am excited about the endless possibilities in web development and look forward to creating innovative solutions that make a positive impact.
                         </Typography>
                     </Grid>
                 </Grid>
